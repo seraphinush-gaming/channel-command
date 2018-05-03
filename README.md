@@ -5,8 +5,17 @@ tera-proxy module to change channel via chat
 - `Command` module
 
 ## Usage
-- __`ch num` · `c num` · `ㅊ num`__
+- __`ch` · `c` · `ㅊ`__
+  - Base command, requires a parameter
+### Parameters
+- __`num`
   - Select channel `num`, where `num` is the channel number
+  - Channel `10` can alternatively be selected with `0`
+  - eg. `ch num`
+- __`n` · `ㅜ`__
+  - Select the `n`ext channel
+- __`b` · `ㅠ`__
+  - Select the previous channel (go `b`ack a channel)
 
 ## Info
 - Original author : [teralove](https://github.com/teralove)
@@ -16,8 +25,11 @@ tera-proxy module to change channel via chat
 ## Changelog
 <details>
 
+    1.37
+    - Added parameter `b` to go back a channel
     1.36
     - Added auto-update support
+    - Added parameter `n` to go to the next channel
     1.35
     - Revised code
     1.34

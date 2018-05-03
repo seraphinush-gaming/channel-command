@@ -1,10 +1,10 @@
 {
-  "files": {
-      "index.js": "4192b5ae97dcf88c222d84c2dbe022928288104a7a941f2ed5ff784666d73827",
-      "module.json": "ff29fcc5fed09dbdec4f9e7efac288b2794c2a8bdb12873b82a2b119e4493eea"
-  },
-  "defs": {
-      "C_SELECT_CHANNEL": 1,
-      "S_CURRENT_CHANNEL": 2
-  }
+    "files": {
+        "index.js": "9c6712cb83ae922859486c8a5ba29d41ed4c36441044ee90163f8b43461591ba",
+        "module.json": "ff29fcc5fed09dbdec4f9e7efac288b2794c2a8bdb12873b82a2b119e4493eea"
+    },
+    "defs": {
+        "C_SELECT_CHANNEL": 1,
+        "S_CURRENT_CHANNEL": 2
+    }
 }

@@ -1,4 +1,4 @@
-// Version 1.36 r:00
+// Version 1.37 r:00
 
 const Command = require('command')
 
@@ -39,6 +39,8 @@ module.exports = function CmdChannel(d) {
 		if (!isNaN(arg)) changeChannel(arg)
 		// change to next channel
 		else if (['n', 'ㅜ'].includes(arg)) changeChannel(currentChannel.channel + 1)
+		// change to previous channel
+		else if (['b', 'ㅠ'].includes(arg)) changeChannel(currentChannel.channel - 1)
 		else send(`Invalid argument.`.clr('FF0000'))
 	})
 	function send(msg) { command.message(`[cmd-channel] : ` + msg) }
