@@ -8,7 +8,7 @@ tera-proxy module to change channel via chat
 - __`ch` · `c` · `ㅊ`__
   - Base command, requires a parameter
 ### Parameters
-- __`num`
+- __`num`__
   - Select channel `num`, where `num` is the channel number
   - Channel `10` can alternatively be selected with `0`
   - eg. `ch num`
