@@ -1,4 +1,4 @@
-// Version 1.37 r:00
+// Version 1.37 r:01
 
 const Command = require('command')
 
@@ -26,7 +26,7 @@ module.exports = function CmdChannel(d) {
 			return
 		}
 		newChannel -= 1
-		d.toServer('C_SELECT_CHANNEL', {
+		d.send('C_SELECT_CHANNEL', 1, {
 			unk: 1,
 			zone: currentChannel.zone,
 			channel: newChannel
