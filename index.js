@@ -1,4 +1,4 @@
-// Version 1.37 r:01
+// Version 1.37 r:02
 
 const Command = require('command')
 
@@ -11,7 +11,7 @@ module.exports = function CmdChannel(d) {
 	let currentChannel = 0
 
 	// code
-	d.hook('S_CURRENT_CHANNEL', (e) => { currentChannel = e })
+	d.hook('S_CURRENT_CHANNEL', 2, (e) => { currentChannel = e })
 
 	// helper
 	// in case of dungeon/instance, return
