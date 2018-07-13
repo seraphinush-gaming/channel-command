@@ -1,9 +1,6 @@
-// Version 1.37 r:03
+// Version 1.38 r:00
 
 const Command = require('command')
-
-// credit : https://github.com/Some-AV-Popo
-String.prototype.clr = function (hexColor) { return `<font color="#${hexColor}">${this}</font>` }
 
 module.exports = function CmdChannel(d) {
 	const command = Command(d)
@@ -11,14 +8,14 @@ module.exports = function CmdChannel(d) {
 	let currentChannel = 0
 
 	// command
-	command.add(['ch', 'c', 'ㅊ'], (arg) => {
+	command.add(['ch', 'c', 'ㅊ'], (p) => {
 		// change to specified channel
-		if (!isNaN(arg)) changeChannel(arg)
+		if (!isNaN(p)) changeChannel(p)
 		// change to next channel
-		else if (['n', 'ㅜ'].includes(arg)) changeChannel(currentChannel.channel + 1)
+		else if (['n', 'ㅜ'].includes(p)) changeChannel(currentChannel.channel + 1)
 		// change to previous channel
-		else if (['b', 'ㅠ'].includes(arg)) changeChannel(currentChannel.channel - 1)
-		else send(`Invalid argument.`.clr('FF0000'))
+		else if (['b', 'ㅠ'].includes(p)) changeChannel(currentChannel.channel - 1)
+		else send(`Invalid argument.`)
 	})
 
 	// code
@@ -33,7 +30,7 @@ module.exports = function CmdChannel(d) {
 		if (currentChannel.channel > 20) return
 		if (newChannel == 0) newChannel = 10
 		if (newChannel == currentChannel.channel) {
-			send(`Same channel selected.`.clr('FF0000'))
+			send(`Same channel selected.`)
 			return
 		}
 		newChannel -= 1
