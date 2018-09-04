@@ -2,7 +2,7 @@
 tera-proxy module to change channel via chat
 
 ## Dependency
-- `Command` module
+- `command` module
 
 ## Usage
 - __`ch` · `c` · `ㅊ`__
@@ -27,6 +27,9 @@ tera-proxy module to change channel via chat
 ## Changelog
 <details>
 
+    1.39
+    - Removed `command` require()
+    - Updated to `mod.command`
     1.38
     - Removed font color bloat
     1.37

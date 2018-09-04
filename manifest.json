@@ -1,7 +1,8 @@
 {
     "files": {
-        "index.js": "c24aa6ee0186b8ebecca2b9ca21d77eeb2fd04d5a10cffb41d2dacec3ae16a00",
-        "module.json": "ff29fcc5fed09dbdec4f9e7efac288b2794c2a8bdb12873b82a2b119e4493eea"
+        "index.js": "ba1856b586bed59ad8b9f4a7e898250146a0bbf954883b1f5aff170cd803bd07",
+        "module.json": "bfdb6d2be34cee89db69698cc19a215c8dd17671f7b8678e4ca3308c34cc90fb",
+        "README.md": "66e76df15d5cb4443970b143695d6216be89cc2d699aadb340e0411daa604c98"
     },
     "defs": {
         "C_SELECT_CHANNEL": 1,
