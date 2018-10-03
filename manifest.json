@@ -1,0 +1,11 @@
+{
+	"files": {
+		"README.md": "66e76df15d5cb4443970b143695d6216be89cc2d699aadb340e0411daa604c98",
+		"index.js": "ba1856b586bed59ad8b9f4a7e898250146a0bbf954883b1f5aff170cd803bd07",
+		"module.json": "7335b1f2728ecbbb8648e3a7e20bcdc5474569ebcec22a652352646f2281983d"
+	},
+	"defs": {
+		"C_SELECT_CHANNEL": 1,
+		"S_CURRENT_CHANNEL": 2
+	}
+}
