@@ -1,6 +1,9 @@
 # cmd-channel
 tera-proxy module to change channel via chat
 
+## Auto-update guide
+- Create a folder called `cmd-channel` in `tera-proxy/bin/node_modules` and download [module.json](https://raw.githubusercontent.com/ylennia-archives/cmd-channel/master/module.json) (right-click save link as...) into the folder
+
 ## Dependency
 - `command` module
 
